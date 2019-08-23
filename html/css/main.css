@@ -1,0 +1,129 @@
+html {
+    overflow: hidden;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.res{
+	background-image: url(log.jpg);
+	background-size: cover;
+    height: 100vh;
+	
+}
+.main-container {
+
+    display:none;
+    width: 70vw;
+    margin: auto;
+    position: relative;
+    top: 35vh;
+}
+
+.character-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.character-box {
+    color: #FFFFFF;
+    background: rgba(0,0,0,0.6);
+    padding: 60px;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.character-box:hover {
+    background: rgba(42, 125, 193,1.0);
+    border-radius: 5px;
+    transition: 200ms;
+}
+
+.character-info {
+    text-align: left!important;
+}
+
+.character-buttons {
+    display: none;
+}
+
+.btn-play {
+    background: #43A047;
+    color: #FFFFFF;
+    float:left;
+    margin-right: 10px;
+}
+
+.btn-play:hover {
+    background: #2eb72c;
+}
+
+.btn-delete {
+    background: #930b0b;
+    color: #FFFFFF;
+    float:left;
+	margin-top:40px;
+    width: 80%;
+    padding: 10px
+}
+
+.btn-delete:hover {
+    background: #b50c0c;
+}
+
+.active-char {
+    border: 2px solid rgba(0,0,0,0.4);
+}
+.main-card{
+    border:none !important;
+}
+.card{
+    background:none;
+    height: 200px;
+    padding: 10px;
+    
+}
+.card-text{
+    font-weight: bolder;
+    font-size: 20px;
+    color:#fff;
+    -webkit-text-stroke: 1px #555;
+
+}
+.fas{
+    font-size: 36px;
+    color:#fff;
+    -webkit-text-stroke: 1px #555;
+}
+.character-title{
+    background-color: #fff;
+    border: 2px solid #222;
+    padding: 10px ;
+    -webkit-text-stroke: 1px #333;
+    font-size: 24px;
+    opacity: .8
+
+}
+.btn-secondary.dropdown-toggle{
+    width: 80%;
+    margin-top: 40px;
+    background: #fff;
+    color:#222;
+    padding: 10px;
+    opacity: 50%;
+}
+.btn-secondary.dropdown-toggle:focus{
+    background: #999;
+    opacity: .8;
+}
+.dropdown-menu{
+    width: 80%
+}
+.start-game-btn{
+    margin-top:40px;
+    width: 80%;
+    padding: 10px
+}
